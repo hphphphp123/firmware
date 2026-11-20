@@ -1,0 +1,7 @@
+#任务三
+板卡：STM32F103C8T6，HSE=8 MHz，系统时钟=72 MHz
+接线：PA13/SWDIO，PA14/SWCLK，GND；单一3.3 V供电
+LED：PC9，低电平点亮,PC13,常亮
+打开：firmware/MDK-ARM/led_light_press_1.uvoptx
+构建：Keil Build，下载后复位
+现象：两led均亮，按下按钮后外接led切换状态
