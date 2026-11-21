@@ -4,4 +4,4 @@
 LED：PC9，低电平点亮
 打开：firmware/MDK-ARM/led_light_nodelay_1.uvoptx
 构建：Keil Build，下载后复位
-现象：LED亮250 ms、灭250 ms
+现象：LED亮500 ms、灭500 ms
